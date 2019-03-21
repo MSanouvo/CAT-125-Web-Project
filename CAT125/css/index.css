@@ -1,0 +1,29 @@
+html{
+  background-color: #EE8888;
+}
+
+body{
+  color: black;
+  text-align: center;
+  font-size: 3rem;
+  font-weight: bold;
+  margin: auto;
+}
+
+.opening{
+  margin: auto;
+  font-size: 2rem;
+  color: black;
+  background: #EE8888;
+  text-align: right;
+  z-index: 10;
+  position: fixed;
+  width: 100vw;
+  height: 5vh;
+}
+
+.links{
+  padding: 1.5vw;
+  text-decoration: none;
+  color: white;
+}
