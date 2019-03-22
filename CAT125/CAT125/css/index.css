@@ -1,0 +1,256 @@
+html{
+  background-color: #EE8888;
+}
+
+p{
+  font-family: Georgia, serif;
+}
+
+h1{
+  font-family: Georgia, serif;
+}
+
+
+body{
+  color: black;
+  text-align: center;
+  font-size: 3rem;
+  font-weight: bold;
+  margin: auto;
+}
+
+.head{
+  position:absolute;
+}
+#namehead{
+    position: relative;
+    text-decoration: none;
+    text-align: left;
+    float: left;
+    left: 2vw;
+    font-size: 2rem;
+    color: white;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+.opening{
+  margin: auto;
+  font-size: 2rem;
+  color: black;
+  background: #BF0603;
+  text-align: right;
+  z-index: 10;
+  position: fixed;
+  width: 100vw;
+  height:3rem;
+}
+
+.links{
+  padding: 1.5vw 1.5vh;
+  padding-right: 2vw;
+  text-decoration: none;
+  color: white;
+  font-family: Arial, Helvetica, sans-serif;
+  position: relative;
+}
+
+.section1{
+  background-color: inherit;
+}
+
+#header{
+  position: relative;
+  text-align: center;
+  text-transform: uppercase;
+  font-size: 3vw;
+  z-index: 5;
+  border-style: dashed;
+  top:20vh;
+  left: 10vw;
+  width: 20vw;
+  transform: rotate(-25deg);
+  box-shadow: 0 0 .3rem .3rem red,
+              0 0 .6rem .6rem blue,
+              0 0 .9rem .9rem black;
+  border-radius: 15%;
+}
+
+#break{
+  text-align: left;
+  font-size:2.5vw;
+
+}
+
+.info1{
+  height: auto;
+  width: 40vw;
+  font-size: 1.5vw;
+  margin-left: 48vw;
+  padding: 3vw 3vh;
+  border-style: solid;
+  border-width: 1px;
+  box-shadow: 10px 5px #888888;
+
+}
+
+.info2{
+  text-align: left;
+  font-size: 1.5vw;
+  height: auto;
+  width: 35vw;
+  margin-top: vw;
+  padding: 3vw 3vh;
+  margin-left: 3vw;
+  border-style: solid;
+  border-width: 1px;
+  box-shadow: 10px 5px #888888;
+  position: relative;
+  bottom: 15vh;
+
+}
+
+#header2{
+  font-size: 4vw;
+  text-align: left;
+  padding-top: 5vh;
+  position: relative;
+}
+
+#subhead{
+  font-size: 2vw;
+  text-align: left;
+  padding: 0;
+}
+.section2{
+  background-color: lightblue;
+  width: auto;
+  height: auto;
+}
+
+.content{
+  height: auto;
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  grid-template-rows: 2fr 1fr;
+
+}
+
+.cell{
+  color: black;
+  font-size: 3rem;
+  text-align: center;
+  padding: 2rem;
+  margin: 2rem;
+}
+
+.cell-1{
+  width: 75%%;
+  height: 100%;
+  overflow: hidden;
+  position: relative;
+  background:  #ffb3b3;
+  box-shadow: 5px 3px;
+}
+.cell-1 a{
+    text-decoration: none;
+    color: black;
+    z-index: 5;
+    position: relative;
+}
+
+.cell-1 img{
+  position: absolute;
+  left: 0;
+  top: 0;
+  width: 100%;
+  height: 100%;
+  z-index: 2;
+  opacity: 0.5;
+}
+
+.cell-1 .description{
+  position: relative;
+  text-align: center;
+  visibility: hidden;
+  font-size: 1.2vw;
+  z-index: 5;
+  border-style: solid;
+  border-width: .1rem;
+  background-color: lightgrey;
+  top: 15%;
+  padding: 5% 5%;
+}
+.cell-1:hover .description{
+  visibility: visible;
+}
+
+
+
+.cell-2{
+  background: #ffeb99;
+  width: 35vw;
+  height: 60vh;
+  position: relative;
+  overflow: hidden;
+  box-shadow: 5px 3px;
+}
+
+.cell-2 a{
+    text-decoration: none;
+    color: black;
+    z-index: 5;
+    position: relative;
+    font-size: 2vw;
+}
+
+.cell-2 img{
+  position: absolute;
+  left: 0;
+  top: 0;
+  width: 100%;
+  height: 100%;
+  z-index: 2;
+  opacity: 0.7;
+}
+
+.cell-2 .description{
+  position: relative;
+  text-align: center;
+  visibility: hidden;
+  font-size: 1vw;
+  z-index: 5;
+  border-style: solid;
+  border-width: .1rem;
+  background-color: lightgrey;
+  top: 15%;
+  padding: 5% 5%;
+}
+.cell-2:hover .description{
+  visibility: visible;
+}
+
+.section3{
+background: #EE8888;
+margin-top: 0;
+}
+
+#header3{
+  font-size: 3rem;
+  margin: 0;
+}
+
+.giticon{
+position: relative;
+
+}
+
+#git{
+  position: relative;
+  font-size: 2rem;
+  padding: 0;
+}
+
+#gitimage{
+  position: relative;
+
+}
