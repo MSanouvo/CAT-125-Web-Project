@@ -18,6 +18,20 @@ body{
   margin: auto;
 }
 
+.head{
+  position:absolute;
+}
+#namehead{
+    position: relative;
+    text-align: left;
+    float: left;
+    bottom: 3.3vh;
+    left: 2vw;
+    font-size: 2rem;
+    color: white;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
 .opening{
   margin: auto;
   font-size: 2rem;
@@ -36,6 +50,7 @@ body{
   text-decoration: none;
   color: white;
   font-family: Arial, Helvetica, sans-serif;
+  position: relative;
 }
 
 .section1{
@@ -90,7 +105,8 @@ body{
 #header2{
   font-size: 4vw;
   text-align: left;
-  margin-right: 10vw;
+  padding-top: 5vh;
+  position: relative;
 }
 
 .section2{
@@ -102,24 +118,24 @@ body{
 .content{
   height: auto;
   display: grid;
-  grid-template-columns: 2fr 1fr;
-  grid-template-rows: 1fr 2fr;
-  grid-gap: .5rem .5rem;
+  grid-template-columns: 1fr 1fr;
+  grid-template-rows: 2fr 1fr;
+  grid-gap: 1rem 1rem;
 }
 
 .cell{
   color: black;
   font-size: 3rem;
   text-align: center;
-  padding: 1rem;
+  padding: 2rem;
   border-width: 1px;
   border-style: dashed;
-  margin: 1rem;
+  margin: 2rem;
 }
 
 .cell-1{
-  width: 50vw;
-  height: 40vh;
+  width: 75%%;
+  height: 100%;
   overflow: hidden;
   position: relative;
   background:  #ffb3b3;
@@ -128,8 +144,7 @@ body{
 .cell-1 a{
     text-decoration: none;
     color: black;
-    top: 50%;
-    z-index: 10;
+    z-index: 5;
     position: relative;
 }
 
@@ -139,22 +154,93 @@ body{
   top: 0;
   width: 100%;
   height: 100%;
-  z-index: 5;
+  z-index: 2;
   opacity: 0.5;
 }
 
+.cell-1 .description{
+  position: relative;
+  text-align: center;
+  visibility: hidden;
+  font-size: 1.2vw;
+  z-index: 5;
+  border-style: solid;
+  border-width: .1rem;
+  background-color: lightgrey;
+  top: 15%;
+  padding: 5% 5%;
+}
+.cell-1:hover .description{
+  visibility: visible;
+}
+
+
+
 .cell-2{
-  background: pink;
+  background: #ffeb99;
+  width: 35vw;
+  height: 60vh;
+  position: relative;
+  overflow: hidden;
+  box-shadow: 5px 3px;
 }
 
-.cell-3{
-  background: yellow;
-  width: 20vw;
-  height: 20vh;
+.cell-2 a{
+    text-decoration: none;
+    color: black;
+    z-index: 5;
+    position: relative;
+    font-size: 2vw;
 }
 
-.cell-4{
-  background: violet;
-  width: 20vw;
-  height: 40vh;
+.cell-2 img{
+  position: absolute;
+  left: 0;
+  top: 0;
+  width: 100%;
+  height: 100%;
+  z-index: 2;
+  opacity: 0.7;
+}
+
+.cell-2 .description{
+  position: relative;
+  text-align: center;
+  visibility: hidden;
+  font-size: 1vw;
+  z-index: 5;
+  border-style: solid;
+  border-width: .1rem;
+  background-color: lightgrey;
+  top: 15%;
+  padding: 5% 5%;
+}
+.cell-2:hover .description{
+  visibility: visible;
+}
+
+.section3{
+background: violet;
+margin-top: 0;
+}
+
+#header3{
+  font-size: 3rem;
+  margin: 0;
+}
+
+.giticon{
+position: relative;
+
+}
+
+#git{
+  position: relative;
+  font-size: 2rem;
+  padding: 0;
+}
+
+#gitimage{
+  position: relative;
+
 }
