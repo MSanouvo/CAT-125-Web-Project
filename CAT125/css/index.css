@@ -10,6 +10,7 @@ h1{
   font-family: Georgia, serif;
 }
 
+
 body{
   color: black;
   text-align: center;
@@ -23,9 +24,9 @@ body{
 }
 #namehead{
     position: relative;
+    text-decoration: none;
     text-align: left;
     float: left;
-    bottom: 3.3vh;
     left: 2vw;
     font-size: 2rem;
     color: white;
@@ -58,13 +59,20 @@ body{
 }
 
 #header{
-  text-align: left;
+  position: relative;
+  text-align: center;
   text-transform: uppercase;
-  font-size: 4vw;
-  padding-top: 25vh;
+  font-size: 3vw;
   z-index: 5;
-  padding-left: 5vw;
-  /*transform: rotate(45deg);*/
+  border-style: dashed;
+  top:20vh;
+  left: 10vw;
+  width: 20vw;
+  transform: rotate(-25deg);
+  box-shadow: 0 0 .3rem .3rem red,
+              0 0 .6rem .6rem blue,
+              0 0 .9rem .9rem black;
+  border-radius: 15%;
 }
 
 #break{
@@ -82,7 +90,7 @@ body{
   border-style: solid;
   border-width: 1px;
   box-shadow: 10px 5px #888888;
-  margin-bottom: 0vh;
+
 }
 
 .info2{
@@ -96,7 +104,6 @@ body{
   border-style: solid;
   border-width: 1px;
   box-shadow: 10px 5px #888888;
-/*  float: left;*/
   position: relative;
   bottom: 15vh;
 
@@ -109,6 +116,11 @@ body{
   position: relative;
 }
 
+#subhead{
+  font-size: 2vw;
+  text-align: left;
+  padding: 0;
+}
 .section2{
   background-color: lightblue;
   width: auto;
@@ -120,7 +132,7 @@ body{
   display: grid;
   grid-template-columns: 1fr 1fr;
   grid-template-rows: 2fr 1fr;
-  grid-gap: 1rem 1rem;
+
 }
 
 .cell{
@@ -128,8 +140,6 @@ body{
   font-size: 3rem;
   text-align: center;
   padding: 2rem;
-  border-width: 1px;
-  border-style: dashed;
   margin: 2rem;
 }
 
@@ -220,7 +230,7 @@ body{
 }
 
 .section3{
-background: violet;
+background: #EE8888;
 margin-top: 0;
 }
 
